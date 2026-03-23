@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traffic Violation Detection</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin:0;
+            font-family:'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f172a, #020617);
+            color:white;
+        }
+
+        /* HEADER */
+        header {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            padding:20px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            font-size:22px;
+            font-weight:600;
+            border-bottom:1px solid rgba(255,255,255,0.1);
+        }
+
+        .nav-buttons {
+            display:flex;
+            gap:10px;
+        }
+
+        .nav-buttons a {
+            text-decoration:none;
+        }
+
+        .nav-buttons button {
+            padding:8px 14px;
+            font-size:13px;
+            border-radius:8px;
+        }
+
+        .viol-btn {
+            background: linear-gradient(45deg, #ef4444, #dc2626);
+        }
+
+        /* GRID */
+        .container {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            gap:20px;
+            padding:20px;
+        }
+
+        /* CARD */
+        .card {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(12px);
+            border-radius:16px;
+            padding:20px;
+            box-shadow:0 10px 30px rgba(0,0,0,0.5);
+            transition:0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow:0 15px 40px rgba(0,0,0,0.7);
+        }
+
+        h2, h3 {
+            margin-top:0;
+        }
+
+        button {
+            padding:10px 18px;
+            border:none;
+            border-radius:10px;
+            background: linear-gradient(45deg, #38bdf8, #6366f1);
+            color:white;
+            font-weight:500;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+
+        input {
+            padding:10px;
+            border-radius:10px;
+            border:none;
+            outline:none;
+            margin-right:10px;
+        }
+
+        img {
+            width:100%;
+            border-radius:12px;
+            border:2px solid rgba(255,255,255,0.1);
+            margin-top:10px;
+        }
+
+        table {
+            width:100%;
+            border-collapse:collapse;
+            overflow:hidden;
+            border-radius:12px;
+        }
+
+        th {
+            background: rgba(255,255,255,0.1);
+            padding:12px;
+        }
+
+        td {
+            padding:10px;
+            border-bottom:1px solid rgba(255,255,255,0.05);
+        }
+
+        tr:hover {
+            background: rgba(255,255,255,0.05);
+        }
+
+        .violation {
+            background: rgba(255, 0, 0, 0.35);
+            font-weight:500;
+        }
+
+        @media(max-width:900px){
+            .container{
+                grid-template-columns:1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div>🚦 Traffic Violation Detection Dashboard</div>
+
+    <!-- ✅ NEW MENU -->
+    <div class="nav-buttons">
+        <a href="/">
+            <button>🏠 Dashboard</button>
+        </a>
+
+        <a href="/violations">
+            <button class="viol-btn">🚨 Violations</button>
+        </a>
+    </div>
+</header>
+
+<div class="container">
+
+<!-- UPLOAD -->
+<div class="card">
+    <h2>📤 Upload Image / Video</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*,video/*" required>
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if output_image %}
+        <h3>🖼 Processed Image</h3>
+        <img src="{{ url_for('static', filename='uploads/' + output_image) }}">
+    {% endif %}
+</div>
+
+<!-- LIVE VIDEO -->
+<div class="card">
+    <h2>📹 Live Video Feed</h2>
+    <img src="{{ url_for('video_feed') }}">
+</div>
+
+<!-- TABLE -->
+<div class="card" style="grid-column: span 2;">
+    <h2>📋 Violation Details</h2>
+    <table id="table">
+        <tr>
+            <th>Vehicle</th>
+            <th>Helmet</th>
+            <th>Triple Riding</th>
+            <th>Number Plate</th>
+        </tr>
+    </table>
+</div>
+
+</div>
+
+<script>
+const table = document.getElementById("table");
+const evtSource = new EventSource("/violations_stream");
+
+evtSource.onmessage = function(e){
+    const data = JSON.parse(e.data);
+
+    table.innerHTML = `
+    <tr>
+        <th>Vehicle</th>
+        <th>Helmet</th>
+        <th>Triple Riding</th>
+        <th>Number Plate</th>
+    </tr>`;
+
+    data.forEach(d=>{
+        const row = table.insertRow();
+
+        if(d.helmet === "No" || d.triple_riding === "Yes"){
+            row.classList.add("violation");
+        }
+
+        row.insertCell(0).innerText = d.vehicle;
+        row.insertCell(1).innerText = d.helmet;
+        row.insertCell(2).innerText = d.triple_riding;
+        row.insertCell(3).innerText = d.plate;
+    });
+};
+</script>
+
+</body>
+</html>

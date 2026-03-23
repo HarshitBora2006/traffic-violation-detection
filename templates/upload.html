@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traffic Violation Detection</title>
+    <style>
+        body { font-family: Arial; text-align:center; padding:20px; }
+        img { border:2px solid #333; margin-top:20px; }
+        table { margin:auto; border-collapse: collapse; width: 80%; margin-top:20px;}
+        th, td { border:1px solid #ddd; padding:8px; text-align:center; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Upload Traffic Image</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*,.mp4,.avi,.mov" required>
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if output_image %}
+        <h2>Annotated Image</h2>
+        <img src="{{ url_for('static', filename='uploads/' + output_image) }}" width="800">
+
+        <h2>Violation Details</h2>
+        <table>
+            <tr>
+                <th>Vehicle</th>
+                <th>Helmet</th>
+                <th>Triple Riding</th>
+                <th>Number Plate</th>
+            </tr>
+            {% for item in result_data %}
+            <tr>
+                <td>{{ item.vehicle }}</td>
+                <td>{{ item.helmet }}</td>
+                <td>{{ item.triple_riding }}</td>
+                <td>{{ item.plate }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+</body>
+</html>

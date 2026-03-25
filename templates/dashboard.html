@@ -1,198 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Traffic Violation Detection</title>
+<meta charset="UTF-8">
+<title>Traffic Violation Detection</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-    <style>
-        body {
-            margin:0;
-            font-family:'Poppins', sans-serif;
-            background: linear-gradient(135deg, #0f172a, #020617);
-            color:white;
-        }
-
-        /* HEADER */
-        header {
-            background: rgba(255,255,255,0.05);
-            backdrop-filter: blur(10px);
-            padding:20px;
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-            font-size:22px;
-            font-weight:600;
-            border-bottom:1px solid rgba(255,255,255,0.1);
-        }
-
-        .nav-buttons {
-            display:flex;
-            gap:10px;
-        }
-
-        .nav-buttons a {
-            text-decoration:none;
-        }
-
-        .nav-buttons button {
-            padding:8px 14px;
-            font-size:13px;
-            border-radius:8px;
-        }
-
-        .viol-btn {
-            background: linear-gradient(45deg, #ef4444, #dc2626);
-        }
-
-        /* GRID */
-        .container {
-            display:grid;
-            grid-template-columns: 1fr 1fr;
-            gap:20px;
-            padding:20px;
-        }
-
-        /* CARD */
-        .card {
-            background: rgba(255,255,255,0.05);
-            backdrop-filter: blur(12px);
-            border-radius:16px;
-            padding:20px;
-            box-shadow:0 10px 30px rgba(0,0,0,0.5);
-            transition:0.3s;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow:0 15px 40px rgba(0,0,0,0.7);
-        }
-
-        h2, h3 {
-            margin-top:0;
-        }
-
-        button {
-            padding:10px 18px;
-            border:none;
-            border-radius:10px;
-            background: linear-gradient(45deg, #38bdf8, #6366f1);
-            color:white;
-            font-weight:500;
-            cursor:pointer;
-            transition:0.3s;
-        }
-
-        button:hover {
-            transform: scale(1.05);
-        }
-
-        input {
-            padding:10px;
-            border-radius:10px;
-            border:none;
-            outline:none;
-            margin-right:10px;
-        }
-
-        img {
-            width:100%;
-            border-radius:12px;
-            border:2px solid rgba(255,255,255,0.1);
-            margin-top:10px;
-        }
-
-        table {
-            width:100%;
-            border-collapse:collapse;
-            overflow:hidden;
-            border-radius:12px;
-        }
-
-        th {
-            background: rgba(255,255,255,0.1);
-            padding:12px;
-        }
-
-        td {
-            padding:10px;
-            border-bottom:1px solid rgba(255,255,255,0.05);
-        }
-
-        tr:hover {
-            background: rgba(255,255,255,0.05);
-        }
-
-        .violation {
-            background: rgba(255, 0, 0, 0.35);
-            font-weight:500;
-        }
-
-        @media(max-width:900px){
-            .container{
-                grid-template-columns:1fr;
-            }
-        }
-    </style>
+<style>
+body { margin:0; font-family:'Segoe UI'; background:#f4f7fb; }
+.sidebar { width:250px; height:100vh; position:fixed; background:#0d3b66; color:white; padding:20px; }
+.sidebar a { display:block; padding:12px; margin:10px 0; color:white; text-decoration:none; border-radius:8px; cursor:pointer; }
+.sidebar a:hover { background:#1e5f9e; }
+.main { margin-left:270px; padding:20px; }
+.card { background:white; padding:20px; border-radius:12px; box-shadow:0 5px 15px rgba(0,0,0,0.1); margin-bottom:20px; }
+.grid { display:grid; grid-template-columns:repeat(2,1fr); gap:20px; }
+.full { grid-column:span 2; }
+table { width:100%; border-collapse:collapse; }
+th, td { padding:10px; border-bottom:1px solid #ddd; }
+.violation { background:#ffdddd; }
+.video-feed { width:100%; height:350px; object-fit:cover; border-radius:10px; }
+canvas { max-width:400px !important; max-height:300px !important; margin:auto; }
+#challanList { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:15px; }
+#challanList img { width:100%; height:180px; object-fit:cover; }
+</style>
 </head>
 
 <body>
 
-<header>
-    <div>🚦 Traffic Violation Detection Dashboard</div>
+<div class="sidebar">
+    <h2>🚦 TVDS</h2>
+    <a onclick="showSection('dashboard')">📊 Dashboard</a>
+    <a onclick="showSection('analytics')">📈 Analytics</a>
+    <a onclick="showSection('camera')">📷 Camera</a>
+    <a onclick="showSection('challan')">🚨 E-Challan</a>
+</div>
 
-    <!-- ✅ NEW MENU -->
-    <div class="nav-buttons">
-        <a href="/">
-            <button>🏠 Dashboard</button>
-        </a>
+<div class="main">
 
-        <a href="/violations">
-            <button class="viol-btn">🚨 Violations</button>
-        </a>
+<div id="dashboard" class="section">
+    <div class="card">
+        <h2>Traffic Violation Detection System</h2>
+        <p>AI Powered Monitoring Dashboard</p>
     </div>
-</header>
-
-<div class="container">
-
-<!-- UPLOAD -->
-<div class="card">
-    <h2>📤 Upload Image / Video</h2>
-    <form method="POST" enctype="multipart/form-data">
-        <input type="file" name="file" accept="image/*,video/*" required>
-        <button type="submit">Upload</button>
-    </form>
-
-    {% if output_image %}
-        <h3>🖼 Processed Image</h3>
-        <img src="{{ url_for('static', filename='uploads/' + output_image) }}">
-    {% endif %}
 </div>
 
-<!-- LIVE VIDEO -->
-<div class="card">
-    <h2>📹 Live Video Feed</h2>
-    <img src="{{ url_for('video_feed') }}">
+<div id="analytics" class="section" style="display:none;">
+    <div class="grid">
+        <div class="card">
+            <h3>Vehicle Type Violations</h3>
+            <canvas id="vehicleChart"></canvas>
+        </div>
+
+        <div class="card">
+            <h3>Violations by Time</h3>
+            <canvas id="dateChart"></canvas>
+        </div>
+
+        <div class="card full">
+            <h3>State-wise Violations</h3>
+            <canvas id="stateChart"></canvas>
+        </div>
+    </div>
 </div>
 
-<!-- TABLE -->
-<div class="card" style="grid-column: span 2;">
-    <h2>📋 Violation Details</h2>
-    <table id="table">
-        <tr>
-            <th>Vehicle</th>
-            <th>Helmet</th>
-            <th>Triple Riding</th>
-            <th>Number Plate</th>
-        </tr>
-    </table>
+<div id="camera" class="section" style="display:none;">
+    <div class="grid">
+
+        <div class="card">
+            <h3>Upload</h3>
+            <form id="uploadForm">
+                <input type="file" name="file" required>
+                <button type="submit">Upload</button>
+            </form>
+            <div id="imageResult"></div>
+        </div>
+
+        <div class="card">
+            <h3>Live Feed</h3>
+            <img class="video-feed" id="videoFeed">
+        </div>
+
+        <div class="card full">
+            <h3>Live Violations</h3>
+            <table id="liveTable">
+                <tr>
+                    <th>Vehicle</th>
+                    <th>Helmet</th>
+                    <th>Triple</th>
+                    <th>Plate</th>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+<div id="challan" class="section" style="display:none;">
+    <div class="card">
+        <h2>Violation Records</h2>
+        <div id="challanList"></div>
+    </div>
 </div>
 
 </div>
 
 <script>
-const table = document.getElementById("table");
+
+/* SECTION SWITCH */
+function showSection(id){
+    document.querySelectorAll('.section').forEach(sec=>sec.style.display='none');
+    document.getElementById(id).style.display='block';
+
+    if(id === "analytics") loadAnalytics();
+    if(id === "challan") loadChallan();
+}
+
+showSection("dashboard");
+
+/* FAST VIDEO LOAD */
+document.getElementById("uploadForm").onsubmit = async function(e){
+    e.preventDefault();
+
+    let formData = new FormData(this);
+    let res = await fetch("/upload", { method: "POST", body: formData });
+    let data = await res.json();
+
+    showSection("camera");
+
+    if(data.type === "image"){
+        document.getElementById("imageResult").innerHTML =
+            `<img src="/static/uploads/${data.image}" width="300">`;
+    }
+
+    if(data.type === "video"){
+        let video = document.getElementById("videoFeed");
+        video.src = "";
+        setTimeout(()=>{
+            video.src = "/video_feed?" + Date.now();
+        }, 300);
+    }
+};
+
+/* LIVE TABLE */
 const evtSource = new EventSource("/violations_stream");
+const table = document.getElementById("liveTable");
 
 evtSource.onmessage = function(e){
     const data = JSON.parse(e.data);
@@ -201,12 +152,12 @@ evtSource.onmessage = function(e){
     <tr>
         <th>Vehicle</th>
         <th>Helmet</th>
-        <th>Triple Riding</th>
-        <th>Number Plate</th>
+        <th>Triple</th>
+        <th>Plate</th>
     </tr>`;
 
     data.forEach(d=>{
-        const row = table.insertRow();
+        let row = table.insertRow();
 
         if(d.helmet === "No" || d.triple_riding === "Yes"){
             row.classList.add("violation");
@@ -218,6 +169,110 @@ evtSource.onmessage = function(e){
         row.insertCell(3).innerText = d.plate;
     });
 };
+
+/* CHALLAN */
+async function loadChallan(){
+    let res = await fetch("/api/violations");
+    let data = await res.json();
+
+    let html = "";
+    data.forEach(v=>{
+        html += `
+        <div class="card">
+            <img src="/${v.image}">
+            <p><b>${v.vehicle}</b></p>
+            <p>${v.plate}</p>
+            <p>${v.reason}</p>
+            <p>${v.time}</p>
+        </div>`;
+    });
+
+    document.getElementById("challanList").innerHTML = html;
+}
+
+/* FORMAT HOUR */
+function formatHour(h){
+    let suffix = h >= 12 ? "PM" : "AM";
+    let hour = h % 12;
+    if(hour === 0) hour = 12;
+    return `${hour} ${suffix}`;
+}
+
+/* CHART INSTANCES */
+let vehicleChartInstance, dateChartInstance;
+
+/* ANALYTICS */
+async function loadAnalytics(){
+
+    let res = await fetch("/api/violations");
+    let data = await res.json();
+
+    let vehicleCount = {};
+    let timeSlots = {};
+
+    const allowedVehicles = ["car", "motorcycle", "bus", "truck"];
+
+    // FIXED ORDER (NO SORT BUG)
+    for(let i=0;i<24;i++){
+        timeSlots[formatHour(i)] = 0;
+    }
+
+    data.forEach(v => {
+
+        if (allowedVehicles.includes(v.vehicle)) {
+            vehicleCount[v.vehicle] = (vehicleCount[v.vehicle] || 0) + 1;
+        }
+
+        let timePart = v.time.split(",")[1].trim();
+        let hour = parseInt(timePart.split(":")[0]);
+        let isPM = timePart.includes("PM");
+
+        if (isPM && hour !== 12) hour += 12;
+        if (!isPM && hour === 12) hour = 0;
+
+        let label = formatHour(hour);
+        timeSlots[label]++;
+    });
+
+    // DESTROY OLD CHARTS
+    if(vehicleChartInstance) vehicleChartInstance.destroy();
+    if(dateChartInstance) dateChartInstance.destroy();
+
+    vehicleChartInstance = new Chart(vehicleChart, {
+        type: 'pie',
+        data: {
+            labels: Object.keys(vehicleCount),
+            datasets: [{ data: Object.values(vehicleCount) }]
+        }
+    });
+
+    dateChartInstance = new Chart(dateChart, {
+        type: 'bar',
+        data: {
+            labels: Object.keys(timeSlots),
+            datasets: [{
+                label: "Violations",
+                data: Object.values(timeSlots)
+            }]
+        }
+    });
+
+    new Chart(stateChart, {
+        type: 'doughnut',
+        data: {
+            labels:["HR","DL","UK","UP","PB"],
+            datasets:[{data:[12,19,8,15,10]}]
+        }
+    });
+}
+
+/* AUTO REFRESH */
+setInterval(()=>{
+    if(document.getElementById("analytics").style.display === "block"){
+        loadAnalytics();
+    }
+}, 5000);
+
 </script>
 
 </body>

@@ -1,779 +1,639 @@
 [
     {
-        "image": "static/violations/5cc5bb61e9474fa5ae0c47878b31724a.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:05 AM"
-    },
-    {
-        "image": "static/violations/18edee25f25d4cfa926920d3f97a5bc1.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:05 AM"
-    },
-    {
-        "image": "static/violations/2a383e9e92064dabab7df9b7f4d2ecfe.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:05 AM"
-    },
-    {
-        "image": "static/violations/e6a3c8110d21489d89ebf42dfb043c51.jpg",
+        "image": "static/violations/e4f76e7823d0439aa3ae8b13746b1af4.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:05 AM"
+        "time": "25 Mar 2026, 09:34 PM"
     },
     {
-        "image": "static/violations/abda5635f9c14e16a2e26f40dae90136.jpg",
-        "vehicle": "person",
+        "image": "static/violations/d723f2f4bcf94016ad007310640e94bf.jpg",
+        "vehicle": "bus",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:05 AM"
+        "time": "25 Mar 2026, 09:34 PM"
     },
     {
-        "image": "static/violations/40dffbf569574f84be800b711c43f3f6.jpg",
-        "vehicle": "person",
+        "image": "static/violations/c8d7b3acf0494557a3312bc234b8c26a.jpg",
+        "vehicle": "car",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:05 AM"
+        "time": "25 Mar 2026, 09:33 PM"
     },
     {
-        "image": "static/violations/c9ba242f86e148fb97b36b320128e52d.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:05 AM"
-    },
-    {
-        "image": "static/violations/0b2f2632aa51454ab244e7fed004b0a0.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:05 AM"
-    },
-    {
-        "image": "static/violations/9ef770d07a5044ba982790b7fa81fec4.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:05 AM"
-    },
-    {
-        "image": "static/violations/1dc4829c7d7f4803bfd245a548d0c56b.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:05 AM"
-    },
-    {
-        "image": "static/violations/51888c90e6d1454db7073f04792ed6c9.jpg",
+        "image": "static/violations/a397271849cf4fa0be08a007d760b656.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:05 AM"
+        "time": "25 Mar 2026, 09:33 PM"
     },
     {
-        "image": "static/violations/8571011a0dfa4d2b87837eaf4f02286d.jpg",
-        "vehicle": "person",
+        "image": "static/violations/377a940c0dee471ab416610492a1d4e1.jpg",
+        "vehicle": "bus",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:05 AM"
+        "time": "25 Mar 2026, 09:33 PM"
     },
     {
-        "image": "static/violations/bacc4c7f95d3438490eeb1fa5f4f5d8f.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:05 AM"
-    },
-    {
-        "image": "static/violations/698ae0df479a4b2d813566be55365293.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:05 AM"
-    },
-    {
-        "image": "static/violations/45a1a39512724edfb04be781c1ab4856.jpg",
+        "image": "static/violations/d99d13e7f186433d9d099861f1e07879.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:04 AM"
+        "time": "25 Mar 2026, 09:33 PM"
     },
     {
-        "image": "static/violations/dafc3be213374768a0634f6632288ead.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:04 AM"
-    },
-    {
-        "image": "static/violations/db1051d86a724a1698d554c3bddca62c.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:04 AM"
-    },
-    {
-        "image": "static/violations/33f4211fa01a455c93d0c0c46dbca848.jpg",
+        "image": "static/violations/2462d321c14e40c8a50dc26006c63317.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:04 AM"
+        "time": "25 Mar 2026, 09:33 PM"
     },
     {
-        "image": "static/violations/75192d05a8c24893a6b5aec68d5b0037.jpg",
+        "image": "static/violations/25aa2d27505c4985928e844860ee6254.jpg",
+        "vehicle": "car",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:33 PM"
+    },
+    {
+        "image": "static/violations/f89bd0a565a44801b64cc73a548a81c8.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:04 AM"
+        "time": "25 Mar 2026, 09:33 PM"
     },
     {
-        "image": "static/violations/ffe817a09cf0413893a00fe4a79026b8.jpg",
-        "vehicle": "person",
+        "image": "static/violations/7a90b503cc1c416a8779e06369d00532.jpg",
+        "vehicle": "truck",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:04 AM"
+        "time": "25 Mar 2026, 09:33 PM"
     },
     {
-        "image": "static/violations/532614d16e3344b8af540012a441790f.jpg",
+        "image": "static/violations/b04ec4c030a045f1ae99bf91e24751ef.jpg",
+        "vehicle": "car",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:33 PM"
+    },
+    {
+        "image": "static/violations/e253ede291834f96838f0292adac1826.jpg",
+        "vehicle": "truck",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:33 PM"
+    },
+    {
+        "image": "static/violations/03ecebe1edc64b03b91202b0ad89900c.jpg",
+        "vehicle": "car",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:33 PM"
+    },
+    {
+        "image": "static/violations/6a2e60594a2f47aaada0b43b2986c1e6.jpg",
+        "vehicle": "car",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:33 PM"
+    },
+    {
+        "image": "static/violations/45c97528409d4593bcfbe2190baed9d9.jpg",
+        "vehicle": "bus",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:33 PM"
+    },
+    {
+        "image": "static/violations/32444ebc6d7e41528067ca771d164b57.jpg",
+        "vehicle": "car",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:33 PM"
+    },
+    {
+        "image": "static/violations/88dfbd37c4c94d42906e08745c15f831.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:33 PM"
     },
     {
-        "image": "static/violations/0caef514ac6740758a3277e8fa252cb7.jpg",
-        "vehicle": "person",
+        "image": "static/violations/51703e42d73e478391d2360d3d91fe03.jpg",
+        "vehicle": "truck",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:33 PM"
     },
     {
-        "image": "static/violations/2c59ea57167c4fe29f4c6e049b91e43d.jpg",
+        "image": "static/violations/01c140d7b7894205b3d9f10fbd5880f8.jpg",
+        "vehicle": "car",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:33 PM"
+    },
+    {
+        "image": "static/violations/0ecd599637e449fc85ebfc69b7890168.jpg",
+        "vehicle": "car",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:33 PM"
+    },
+    {
+        "image": "static/violations/e99d129cb237441a8244ee741cbd03ff.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:23 PM"
     },
     {
-        "image": "static/violations/cd397b7b4c6a4b0d922bce0bb3132801.jpg",
-        "vehicle": "person",
+        "image": "static/violations/af96b6e717fd47889492fc34599eb91e.jpg",
+        "vehicle": "bus",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:22 PM"
     },
     {
-        "image": "static/violations/afd0c459132d44c0ae258b8013e45894.jpg",
+        "image": "static/violations/2a2003265bcf46f2ba64640e6c83b2b3.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:22 PM"
     },
     {
-        "image": "static/violations/87b0c8f5deaf4f23b774ab6463956758.jpg",
+        "image": "static/violations/583f54f4b006489dadba3ea27d2dc25c.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:22 PM"
     },
     {
-        "image": "static/violations/497120a99ba94321a22a654ee46678c2.jpg",
-        "vehicle": "person",
+        "image": "static/violations/88db896fd6c6475dacad0fa6b2cb0609.jpg",
+        "vehicle": "car",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:22 PM"
     },
     {
-        "image": "static/violations/b46e41e92e6d456d87c13a1244d92918.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/f7a07e0a2c094428a00d040ddddc0e9f.jpg",
+        "image": "static/violations/6b6d0208a92a4812880158ade8e7a3c4.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:22 PM"
     },
     {
-        "image": "static/violations/53dd2fa2d963482eb5ff329ed0d01290.jpg",
-        "vehicle": "person",
+        "image": "static/violations/f511d8fe76ca49b4be80ed1fa5f305a3.jpg",
+        "vehicle": "truck",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:22 PM"
     },
     {
-        "image": "static/violations/a88a5cd154fe4720a79146b511c839d7.jpg",
+        "image": "static/violations/7dad393733d641568fe72f82ca2bdf64.jpg",
+        "vehicle": "car",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:22 PM"
+    },
+    {
+        "image": "static/violations/c8577d65c22a460a88a13e96c638d23a.jpg",
+        "vehicle": "truck",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:22 PM"
+    },
+    {
+        "image": "static/violations/f0774c646b0a4a159f181af429f15ff2.jpg",
+        "vehicle": "car",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:22 PM"
+    },
+    {
+        "image": "static/violations/3d8f706d03124b3281f773d57eef595c.jpg",
+        "vehicle": "car",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:22 PM"
+    },
+    {
+        "image": "static/violations/915d3d4beb0f4fd0ab9f8e2337290ca3.jpg",
+        "vehicle": "bus",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:22 PM"
+    },
+    {
+        "image": "static/violations/bfb1cf4648eb45f3ac938ea9d6997d5f.jpg",
+        "vehicle": "car",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:22 PM"
+    },
+    {
+        "image": "static/violations/35185830e6c6427791559e9b32d36da3.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:22 PM"
     },
     {
-        "image": "static/violations/ab868f599b07434e9aa397e78424b0b5.jpg",
+        "image": "static/violations/a8c8b4bad7844191b13187d57d8af91d.jpg",
+        "vehicle": "truck",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:22 PM"
+    },
+    {
+        "image": "static/violations/b03983d02911418b9ce9661addcc1e6a.jpg",
+        "vehicle": "car",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:22 PM"
+    },
+    {
+        "image": "static/violations/163c41ca8c494427a9e77c6fa3c8cceb.jpg",
+        "vehicle": "car",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:22 PM"
+    },
+    {
+        "image": "static/violations/fc27938d8f734da3a22a4299074e5bdc.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:21 PM"
     },
     {
-        "image": "static/violations/5f5ebf85a12c45d58eaa8b363ecfe811.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/67e408dd2a19411286b103510849d073.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/d60c13e33c494352a5a2ab6a61b59f8a.jpg",
+        "image": "static/violations/d210149b890546de9640d58605b8ea44.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:21 PM"
     },
     {
-        "image": "static/violations/7ca6c9f063a444a9a76560c53b11543a.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/9a0746d385b54d6791f933e65531cd65.jpg",
+        "image": "static/violations/de71468d105d412ab64ce583fd2b3c12.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:21 PM"
     },
     {
-        "image": "static/violations/f0ae9053807a47e9ad89866aeca091a3.jpg",
+        "image": "static/violations/4b3a7f61be854a22861fee131ae7212c.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:21 PM"
     },
     {
-        "image": "static/violations/20fbee2acefe4b17a4a6c044dc7427f8.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/95b8c6dc25664da2a340bbf1e690f5de.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/64ce8afedc9f43439094a2b3826ce8c2.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/3307aa8ba9d94621ba79a9f7744cd1c5.jpg",
+        "image": "static/violations/ff27e58cb02d46b7b0a6e8c9293007b8.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:21 PM"
     },
     {
-        "image": "static/violations/bfc0fd263bbc435d91d6fb7215055a48.jpg",
+        "image": "static/violations/71e82c763f5f41c6acb73cec369e7d89.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:21 PM"
     },
     {
-        "image": "static/violations/77f99a9b16c8441e9ad863d09846adfc.jpg",
+        "image": "static/violations/56e1c4c7e41f44b096fee0fb23b1d6c6.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:21 PM"
     },
     {
-        "image": "static/violations/caf15bf5451d4ad4b1aaa94daf6cd9ec.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/db93ba854eb74fa68d2ba9ca1e0cb655.jpg",
+        "image": "static/violations/2b30d0b796c14a3f8235bee18a2cfe25.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/0a6a4ce36a3e4ae38bb81348111f892c.jpg",
+        "image": "static/violations/043f80a6512f4040b01151b0485757db.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/5019b4573e8444bdb4f064f532571053.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/ee099a67940a4ae28b5e21fdf9595b4b.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/5b772d8362b54ec6a98fc07e0d546042.jpg",
+        "image": "static/violations/f8d4c6a7fedc46849c2195cf51bc4000.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/2ff90fc7d8fb4fdf909d21f66db834a3.jpg",
+        "image": "static/violations/a07da93ab4c540aaadebc0ff8b55030a.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/1657bedd15c548f39898bd73609a2e05.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/20bcc5ddd247452882cb711bd3394f5f.jpg",
+        "image": "static/violations/962f3634fbfa47a58d7bd8899162f71d.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/ecc48a05431849ba97652a11383d6ef8.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/8d5765d2bb364c7ba21b7f6b6837716d.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/40102dc406774733a756ad3eddff5d25.jpg",
+        "image": "static/violations/4dba69f3e3464dadbc61b821cc671a14.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/6313a4fe88be4f33b79799b5ef4f4873.jpg",
+        "image": "static/violations/d03fc9232e2543b6a03e1477574dc1a5.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/6bc56805b0b24278a2a132c017b21d8f.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/6bebd6fdf79d4f2abbb89322f3569bd7.jpg",
+        "image": "static/violations/7a4fe4783920427c86c0edd5859ff840.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/39e816e801af4918971d5291f9d813eb.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/069b07dbe2f644a8a61290e14d1a8b04.jpg",
+        "image": "static/violations/387f65802b3f45c9abae1f90f1892f87.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/03d9365cf2e049ea922d32d13a9c865d.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/f400f5d824b24d1da9f342731f7215cd.jpg",
+        "image": "static/violations/3ec85337236e4c649c12eb501ab3ef0d.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/6f6fe9c090894a88982d21687e141789.jpg",
+        "image": "static/violations/25ac928a4ae14c0c872558952f932946.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/a333c9bd044e4bd2b31fb464b7d20434.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/dacc6c4cc1354c88bdf7cf653d6d75b6.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/8e49c1b9d8394914a973bfb43b9df173.jpg",
+        "image": "static/violations/706655850d294784a7ab7182c61c106d.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/2149232aaec84f259af0926dc9eae59b.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/3803b226476a453ba9d2e7db3eb6afb6.jpg",
+        "image": "static/violations/5d47972768e449d0b0f29be13aeea247.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/699a92d2fa40477680a4312492d836fc.jpg",
+        "image": "static/violations/9c4033ebc50647f181f2e2664bf09093.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/dd6c55b6a7f249e992f2f61b6ca44ed1.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/79df6804bf0b4331a8983b3a69decec7.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/a6ee8d0a31ec4aaebe3066c952d4077f.jpg",
+        "image": "static/violations/f150fa7bee664530b28c37a1b3824359.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/7afac18f37224a579318b29daca1c092.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/6c87d69a70de44caaad9ccbdf6e9827e.jpg",
+        "image": "static/violations/65bc776fa7d54bd48ce73cf4edc095b4.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/8fe66de25871443aafd9bb5f716f015d.jpg",
+        "image": "static/violations/0c11c7406f884a688266f344cbd4efbc.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/0c129d7c9e25482aa2a9a2ea2847d959.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/329d9de26d7343a28007d167b27fd58e.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/e0cc9177ded64f7abc58ccfe0841fec0.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/377cda8889ce4279ab287988d7d6883a.jpg",
+        "image": "static/violations/443403c73393455486e8bcb0d7e55c87.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/0085625463714d80a3e99cc3f98ef994.jpg",
+        "image": "static/violations/bb0a6c3ca90f4333b203a48a37b394fb.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/93953115b7464053afaca798e273be69.jpg",
+        "image": "static/violations/27230b5be9494af08a6b5fee38a030f3.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/27b8de9b218f4ad686ebab090256bee8.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/4b8caf051acc4f168f15ee033e893b6e.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/be6eea6c5479452d8acae5be9ddc850e.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/f53d90212949457fac845f6776276b77.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/487c21ef9ea946168d8991962c1b1264.jpg",
+        "image": "static/violations/de252aea37974421b108cb8bb77db105.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/9f3a9f6d022247d6b2b2b05b0e6371e3.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/4935f932413c4d6c8ece75014e9c2c2d.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/601ac6f028394eeeaef5e830ea4ff18b.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:03 AM"
-    },
-    {
-        "image": "static/violations/dec52bbe76784b51901d15104cc61cdc.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/b98df3da43074bb0896d0e60ea1e3518.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/0e66e38a61c6474bad737f29d8259636.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/f7deb2445d1847b9937f81e079cd7489.jpg",
+        "image": "static/violations/cbd67be36c744b77a6c9dcd0e16123e4.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/c5bc3270e74d47fcb79ef02889a9c634.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/acfdbb2d2716441fad96a693a1d8f1d1.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/b4dfdf00d0fe40609e36a68226e2857a.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/4dcf45685eb04d98893d185334d00599.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/03493af7fbd24105b5a287114aba13cc.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/1b8bbc96bf3448b38c013a6f7c1cbfdb.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/95b65c7dc6084406ac336850b3152542.jpg",
+        "image": "static/violations/3c6d103a43ba43ebb7c5f410df61ac45.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/2d0fee9e040e4cc7adb62c4be23a8e45.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/4c8bc81bc65d429f8b6627c816eb22e2.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/d854d56114b7499f94ea3404e3a90118.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/9091d2590055416ebd7d2259f8b66970.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/51092101cb9d4cb2a83a3087ab9e1e1d.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/fa03302754d1444d986eba831069e488.jpg",
-        "vehicle": "person",
-        "plate": "Unknown",
-        "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
-    },
-    {
-        "image": "static/violations/cbfb734f341348a6a9fb8b73ad97a4b7.jpg",
+        "image": "static/violations/934370d08768434f91331fbc96431205.jpg",
         "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/41c0a3cde9f84ae0906d62e716442ef9.jpg",
-        "vehicle": "person",
+        "image": "static/violations/968eff97272542b3be4eb279e7e96c9d.jpg",
+        "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/b738dea1630b47f19f22450e93c74d56.jpg",
-        "vehicle": "person",
+        "image": "static/violations/b3d86cb5ceaa43e6abad4b0489e51bdd.jpg",
+        "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
+        "time": "25 Mar 2026, 09:20 PM"
     },
     {
-        "image": "static/violations/bb69c7a9723b455d9d5096a8d401a342.jpg",
-        "vehicle": "person",
+        "image": "static/violations/727349e0572b43fb99c18eba53e0809b.jpg",
+        "vehicle": "motorcycle",
         "plate": "Unknown",
         "reason": "No Helmet",
-        "time": "23 Mar 2026, 10:02 AM"
+        "time": "25 Mar 2026, 09:20 PM"
+    },
+    {
+        "image": "static/violations/71f0ebcb607c414e804d91cedbb1e813.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:20 PM"
+    },
+    {
+        "image": "static/violations/48ba9ba78f3f42e2a4de660641740060.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:20 PM"
+    },
+    {
+        "image": "static/violations/9ffb5ba08734429ca1a4db3047363c7f.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:20 PM"
+    },
+    {
+        "image": "static/violations/1396bc66b9a644e7aeb4ee67027964f8.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:20 PM"
+    },
+    {
+        "image": "static/violations/4cc36c815ba349e4920225a2b27964d8.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:20 PM"
+    },
+    {
+        "image": "static/violations/6deb5d4a312e44b583b78a4b6f354713.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:20 PM"
+    },
+    {
+        "image": "static/violations/5caa5fd1dfc74e799c7e917d3b3f4a2a.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:19 PM"
+    },
+    {
+        "image": "static/violations/f2733a25b59d43319bced2c53d10e484.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:19 PM"
+    },
+    {
+        "image": "static/violations/dca0975cdcac4e1296003a2a0d81b00d.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:19 PM"
+    },
+    {
+        "image": "static/violations/dfd3ed48064945d8b683d0db91b218a2.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:19 PM"
+    },
+    {
+        "image": "static/violations/de151600d1fe4911a3d8571fc1b6bd4b.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:19 PM"
+    },
+    {
+        "image": "static/violations/38debbf0b7e241689459149235df7924.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:19 PM"
+    },
+    {
+        "image": "static/violations/46857fb1e69c4b6d98bf643a0722d1e1.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:19 PM"
+    },
+    {
+        "image": "static/violations/e759020f7bfa44c993e5ad3a9229c35a.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:19 PM"
+    },
+    {
+        "image": "static/violations/39b05a91336c4213a8519f161f231538.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:19 PM"
+    },
+    {
+        "image": "static/violations/18e044d6acbc4fa3b939c1f62027a36c.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:19 PM"
+    },
+    {
+        "image": "static/violations/259f8e02f20042ffb7664e661da24eb3.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:19 PM"
+    },
+    {
+        "image": "static/violations/98bb35b10686408db5fd3e467486904b.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:19 PM"
+    },
+    {
+        "image": "static/violations/ee0429d28a7645bfa6befb3a8920f96c.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:19 PM"
+    },
+    {
+        "image": "static/violations/d52ec56d8f7c45a6ba7e8a43a139c8e3.jpg",
+        "vehicle": "motorcycle",
+        "plate": "Unknown",
+        "reason": "No Helmet",
+        "time": "25 Mar 2026, 09:19 PM"
     }
 ]
